@@ -1,0 +1,448 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "form-feature;",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3847215000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1770310899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page on the form page",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1115843100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user fill in the form with \"Aarav Sharma\", \"aarav@example.com\", \"Male\", \"9876543210\", \"Maths\", \"Sports\", \"12 MG Road\", \"NCR\", \"Agra\"",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85997900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16728699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see that login button is enabled",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 637344100
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1951999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "form-feature;",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3722780499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1676149400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page on the form page",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1463172300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user fill in the form with \"Priya Verma\", \"priya@example.com\", \"Female\", \"9876543211\", \"English\", \"Reading\", \"45 Park Street\", \"Uttar Pradesh\", \"Lucknow\"",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 90601099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18205799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see that login button is enabled",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 518904000
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2578600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "form-feature;",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3278841199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2183272700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page on the form page",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 960585699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user fill in the form with \"Rahul Singh\", \"rahul@example.com\", \"Male\", \"9876543212\", \"Physics\", \"Music\", \"78 Civil Lines\", \"Haryana\", \"Meerut\"",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 136021500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17874199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see that login button is enabled",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 869440300
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2112699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "form-feature;",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2568106599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1773982899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page on the form page",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 552190999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user fill in the form with \"Neha Gupta\", \"neha@example.com\", \"Female\", \"9876543213\", \"Chemistry\", \"Sports, Reading\", \"90 Lake View\", \"Rajasthan\", \"Agra\"",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 54460800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7267900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see that login button is enabled",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 467089199
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1422699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "form-feature;",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2822395999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1566722600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page on the form page",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:4"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 561236500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user fill in the form with \"Kabir Khan\", \"kabir@example.com\", \"Male\", \"9876543214\", \"Biology\", \"Music, Sports\", \"22 Sector 5\", \"NCR\", \"Meerut\"",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97517699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9800900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see that login button is enabled",
+            "match": {
+              "location": "features\\step_definitions\\formSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 379669200
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1199500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "form-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "form Feature",
+    "tags": [],
+    "uri": "features\\form.feature"
+  }
+]
