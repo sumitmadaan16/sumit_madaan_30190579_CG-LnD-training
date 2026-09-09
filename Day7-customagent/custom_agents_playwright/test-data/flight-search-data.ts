@@ -1,0 +1,295 @@
+export const flightData = {
+  "referenceDate": "2026-09-08",
+  "dateFormat": "MM/DD/YYYY",
+  "prioritizedCases": [
+    {
+      "id": "TC_FLT_001.01",
+      "description": "Search Form Loads",
+      "phase": 1,
+      "action": "verify-search-form"
+    },
+    {
+      "id": "TC_FLT_002.01",
+      "description": "Departure Autocomplete Works",
+      "phase": 1,
+      "action": "departure-autocomplete",
+      "departureQuery": "New"
+    },
+    {
+      "id": "TC_FLT_002.02",
+      "description": "Select Departure Airport",
+      "phase": 1,
+      "action": "select-departure",
+      "departureQuery": "New York",
+      "departure": "JFK"
+    },
+    {
+      "id": "TC_FLT_003.01",
+      "description": "Arrival Autocomplete Works",
+      "phase": 1,
+      "action": "arrival-autocomplete",
+      "arrivalQuery": "Los"
+    },
+    {
+      "id": "TC_FLT_003.02",
+      "description": "Same Airport Validation",
+      "phase": 1,
+      "action": "same-airport-validation",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "JFK",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/18/2026",
+      "passengers": {
+        "adults": 1
+      },
+      "expectedError": "Departure and arrival airports must be different"
+    },
+    {
+      "id": "TC_FLT_004.01",
+      "description": "Departure Date Picker Opens",
+      "phase": 1,
+      "action": "open-departure-calendar"
+    },
+    {
+      "id": "TC_FLT_004.02",
+      "description": "Select Future Departure Date",
+      "phase": 1,
+      "action": "select-departure-date",
+      "departureDate": "09/15/2026"
+    },
+    {
+      "id": "TC_FLT_005.01",
+      "description": "Return Date After Departure",
+      "phase": 1,
+      "action": "return-date-validation",
+      "departureDate": "09/15/2026",
+      "invalidReturnDate": "09/14/2026",
+      "returnDate": "09/16/2026"
+    },
+    {
+      "id": "TC_FLT_006.01",
+      "description": "Passenger Counter Interface",
+      "phase": 1,
+      "action": "passenger-counter",
+      "passengers": {
+        "adults": 2,
+        "children": 1,
+        "infants": 0
+      }
+    },
+    {
+      "id": "TC_FLT_006.02",
+      "description": "Minimum Adult Validation",
+      "phase": 1,
+      "action": "minimum-adult-validation",
+      "passengers": {
+        "adults": 0,
+        "children": 0,
+        "infants": 0
+      },
+      "expectedError": "At least 1 adult required"
+    },
+    {
+      "id": "TC_FLT_008.01",
+      "description": "Trip Type Options Display",
+      "phase": 1,
+      "action": "trip-type-options"
+    },
+    {
+      "id": "TC_FLT_009.01",
+      "description": "Valid Search Executes Successfully",
+      "phase": 1,
+      "action": "valid-search",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 2
+      },
+      "cabin": "Economy"
+    },
+    {
+      "id": "TC_FLT_016.01",
+      "description": "Flight Details Page Loads",
+      "phase": 2,
+      "action": "flight-details-page",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      },
+      "cabin": "Economy"
+    },
+    {
+      "id": "TC_FLT_016.02",
+      "description": "Complete Flight Information Displays",
+      "phase": 2,
+      "action": "complete-flight-information",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      },
+      "cabin": "Economy"
+    },
+    {
+      "id": "TC_FLT_017.01",
+      "description": "Select Outbound Flight (Round Trip)",
+      "phase": 2,
+      "action": "select-outbound",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      }
+    },
+    {
+      "id": "TC_FLT_017.02",
+      "description": "Select Return Flight (Round Trip)",
+      "phase": 2,
+      "action": "select-return",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      }
+    },
+    {
+      "id": "TC_FLT_017.03",
+      "description": "Continue Button Enable/Disable Logic",
+      "phase": 2,
+      "action": "continue-button-logic",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      }
+    },
+    {
+      "id": "TC_FLT_017.04",
+      "description": "One-Way Flight Selection",
+      "phase": 2,
+      "action": "one-way-selection",
+      "tripType": "one-way",
+      "departure": "SFO",
+      "arrival": "LHR",
+      "departureDate": "09/22/2026",
+      "passengers": {
+        "adults": 1
+      }
+    },
+    {
+      "id": "TC_FLT_011.01",
+      "description": "Sort by Price - Ascending",
+      "phase": 3,
+      "action": "sort-price-ascending",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026"
+    },
+    {
+      "id": "TC_FLT_011.02",
+      "description": "Sort by Price - Toggle Descending",
+      "phase": 3,
+      "action": "sort-price-descending",
+      "tripType": "round-trip",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "returnDate": "09/22/2026"
+    },
+    {
+      "id": "TC_FLT_012.01",
+      "description": "Sort by Departure Time",
+      "phase": 3,
+      "action": "sort-departure-time",
+      "tripType": "one-way",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026"
+    },
+    {
+      "id": "TC_FLT_013.01",
+      "description": "Filter by Single Airline",
+      "phase": 3,
+      "action": "filter-airlines",
+      "tripType": "one-way",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "airlines": [
+        "United"
+      ]
+    },
+    {
+      "id": "TC_FLT_013.02",
+      "description": "Filter by Multiple Airlines",
+      "phase": 3,
+      "action": "filter-airlines",
+      "tripType": "one-way",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "airlines": [
+        "United",
+        "Delta"
+      ]
+    },
+    {
+      "id": "TC_FLT_014.01",
+      "description": "Filter by Number of Stops",
+      "phase": 3,
+      "action": "filter-stops",
+      "tripType": "one-way",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "stops": [
+        "Direct",
+        "1 Stop"
+      ]
+    },
+    {
+      "id": "TC_FLT_015.01",
+      "description": "Filter by Price Range",
+      "phase": 3,
+      "action": "filter-price-range",
+      "tripType": "one-way",
+      "departure": "JFK",
+      "arrival": "LAX",
+      "departureDate": "09/15/2026",
+      "priceRange": {
+        "min": 400,
+        "max": 600
+      }
+    },
+    {
+      "id": "TC_FLT_018.01",
+      "description": "Invalid Search Error Handling",
+      "phase": 3,
+      "action": "invalid-search-errors",
+      "expectedError": "required|validation|select"
+    }
+  ]
+};
+

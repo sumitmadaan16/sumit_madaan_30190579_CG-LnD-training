@@ -1,0 +1,19 @@
+{
+  "name": "custom_agents_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:flights": "playwright test tests/flights.spec.ts",
+    "test:flights:dd": "playwright test tests/flights.dd.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0"
+  }
+}
